@@ -3,37 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>사진 등록 페이지</title>
-    <link rel="stylesheet" href="./css/css.css">
+    <title>AfreecaTV Video Channels</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+        .video-container {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .video-container h2 {
+            margin-top: 0;
+        }
+        .video-container iframe {
+            width: 100%;
+            height: 200px;
+        }
+    </style>
 </head>
 <body>
-
-<header>
-    <h1>사진 등록 페이지</h1>
-</header>
-
-<div class="container">
-    <div class="form-group">
-        <label for="nickname">별명:</label>
-        <input type="text" id="nickname" name="nickname" required>
+    <div class="grid-container">
+        <div class="video-container" id="khm11903">
+            <h2>봉회장</h2>
+            <iframe src="https://mul.live/a:khm11903" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" id="rlatldgus">
+            <h2>오메킴승현2</h2>
+            <iframe src="https://mul.live/a:rlatldgus" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" id="impact501">
+            <h2>오세블리</h2>
+            <iframe src="https://mul.live/a:impact501" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" id="iamquaddurup">
+            <h2>장지수</h2>
+            <iframe src="https://mul.live/a:iamquaddurup" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" id="dbdms139">
+            <h2>유은 2호</h2>
+            <iframe src="https://mul.live/a:dbdms139" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" id="ahfotlrp0675">
+            <h2>으악 3호</h2>
+            <iframe src="https://mul.live/a:ahfotlrp0675" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" id="dign1461">
+            <h2>혜밍 4호</h2>
+            <iframe src="https://mul.live/a:dign1461" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" id="kyoonah1217">
+            <h2>소유나 9호</h2>
+            <iframe src="https://mul.live/a:kyoonah1217" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" id="malguman">
+            <h2>도맑음 10호</h2>
+            <iframe src="https://mul.live/a:malguman" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" id="wjl9908">
+            <h2>우정x4 11호</h2>
+            <iframe src="https://mul.live/a:wjl9908" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" id="smpk96">
+            <h2>박삐삐</h2>
+            <iframe src="https://mul.live/a:smpk96" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" id="girltwo">
+            <h2>이채이</h2>
+            <iframe src="https://mul.live/a:girltwo" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" id="clzhf123">
+            <h2>우질</h2>
+            <iframe src="https://mul.live/a:clzhf123" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
-    <div class="form-group">
-        <label for="password">비밀번호:</label>
-        <input type="password" id="password" name="password" required>
-    </div>
-    <div class="form-group">
-        <label for="photo">사진 업로드:</label>
-        <input type="file" id="photo" name="photo" accept="image/*" required>
-    </div>
-    <button id="uploadBtn">사진 업로드</button>
-
-    <div class="post" id="postSection">
-        <!-- 여기에 업로드된 사진이 표시됩니다 -->
-    </div>
-
-    
-</div>
-
-<script src="./js/test.js"></script>
 </body>
 </html>
